@@ -1,10 +1,10 @@
-// on déclare une constante 
+// on déclare une constante a laquelle j'affecte une variable car qui prend des information 
 const car = {
   brand: 'Aston Martin',
   model: 'DB5',
   color: 'grey',
   power: '300hp',
-  //  on déclare une méthode nommée linInfo
+  //  on déclare une méthode nommée logInfo
   logInfo() {
   // on affiche une chaîne de caractères contenant les informations de l'agent
     console.log(`Car information: ${this.color}, ${this.model}, ${this.brand}`);

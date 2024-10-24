@@ -5,7 +5,7 @@ function addCarToAgent(agent, brand, model, color, power) {
   if (!brand || !model || !color || !power) {
   // Affiche un message d'erreur dans la console du navigateur 
     console.error('Missing or incorrect car information');
-    //termine l'exécution  de la fonction 
+    // Termine l'exécution  de la fonction 
     return null;
   }
   agent.car = {
@@ -14,6 +14,6 @@ function addCarToAgent(agent, brand, model, color, power) {
     color,
     power
   };
-  //termine l'exécution de la fonction 
+  //Termine l'exécution de la fonction 
   return agent;
 }
